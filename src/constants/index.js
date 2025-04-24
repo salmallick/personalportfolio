@@ -11,6 +11,12 @@ export const ABOUT_TEXT = `I am Salman Mallick, a full-stack developer with a st
 
 export const EXPERIENCES = [
   {
+    year: "Jun 2025 - Aug 2025",
+    role: "Software Engineer Intern",
+    company: "Interactive Brokers",
+    description: `Incoming Summer 2025`,
+    technologies: [ "Python", "SQL", "Linux"],
+  },
     year: "Apr 2024 - Jul 2024",
     role: "Software Engineer Intern",
     company: "BeAware Deaf Assistant",
@@ -23,18 +29,19 @@ export const EXPERIENCES = [
     Deployed refined LLM-based speech recognition at conferences with 300+ attendees, increasing client attraction.`,
     technologies: ["SwiftUI", "Python"],
   },
+   
 ];
 
 export const PROJECTS = [
   {
-    title: "AI-Powered Speech Detection",
+    title: "AI-Powered Financial Research Tool",
     image: project1,
     description:
       "Built a platform integrating embeddings and ChatGPT-4 to analyze financial news, delivering 90% accuracy and improving LLM contextual handling by 40% with an optimized text-splitting algorithm.",
     technologies: ["SwiftUI", "Python", "Pytorch"],
   },
   {
-    title: "AI-Powered Financial Research Tool",
+    title: "AI-Powered Speech Detection",
     image: project2,
     description:
       "Fine-tuned and integrated OpenAIs ASR Whisper into SwiftUI, enhancing multilingual speech accuracy by 80% and reducing transcription latency by over 90%.",
